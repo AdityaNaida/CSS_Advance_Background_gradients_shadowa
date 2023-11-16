@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.container{
+    margin: auto;
+    height: 40vh;
+    width: 400px;
+    margin-top: 2em ;
+    /* border: 1px solid black; */
+    padding: 20px;
+    border-radius: 1em;
+    box-shadow: 5px 10px 20px gray;
+    /*horizontally[left to right] --> vertically[top to bottom] --> blur ammount --> color*/
+}

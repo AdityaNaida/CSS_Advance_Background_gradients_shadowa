@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins'sans-serif;
+}
+
+.container{
+    height: 70vh;
+    width: 600px;
+    margin: auto;
+    /* border: 2px solid #000; */
+    margin-top: 2em;
+
+    /* background: linear-gradient(to bottom ,orangered,yellow);[By default] */
+    /* background: linear-gradient(to top,orangered,yellow); */
+    /* background: linear-gradient(to right,orangered,yellow); */
+    /* background: linear-gradient(to left,orangered,yellow); */
+
+
+    /*Using Angles*/
+    /* background: linear-gradient(90deg,orangered,yellow); [deg = degree] */
+    /* background: linear-gradient(45deg,orangered,yellow); */
+    /* background: linear-gradient(45deg,orangered,yellow, green); */
+
+
+    /* background: linear-gradient(to bottom left,orangered,yellow); */
+    /* background: linear-gradient(to bottom right,orangered,yellow); */
+    /* border-radius: 2em; */
+    /* background-color: #74EBD5; */
+    /* background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%); */
+    /* color: #000; transparency[0 - 1]*/
+    background: linear-gradient(to top, rgba(0,0,0,0.5),rgba(0,0,0,0)), url(images/dublin.jpg) no-repeat center scroll;
+    background-size: cover;
+}

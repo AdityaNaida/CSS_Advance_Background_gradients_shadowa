@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.container{
+    height: 70vh;
+    width: 600px;
+    margin: auto;
+    border: 10px solid orange;
+    padding: 20px 30px;
+    background-color: rgb(227, 186, 227);
+    /* background-clip: border-box; */
+    /* background-clip: padding-box; */
+    background-clip: content-box;
+}

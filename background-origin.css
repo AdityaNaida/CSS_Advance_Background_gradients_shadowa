@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.container{
+    /* display: inline; */
+    border: 10px solid #ff0000;
+    padding: 10px 50px;
+    height: 70vh;
+    width: 600px;
+    margin: auto;
+    background: url(images/frog.gif) ;
+    background-repeat: no-repeat;
+    /* background-origin: border-box; */
+    /* background-origin: padding-box; */
+    /* background-origin: content-box; */
+}
+/* 1em = 16px */
+.container > h2{
+    font: 400 3em 'Poppins',sans-serif;
+    /* font-weight --> font-size --> font-family */
+    color: orangered;
+    text-align: center;
+}
